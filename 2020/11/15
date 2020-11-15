@@ -1,0 +1,13 @@
+a=int(input(''))
+s=a
+d=0
+c=0
+sc=0
+while True:
+    sc=a//10 +a%10
+    d=(a%10)*10+sc%10
+    c=c+1
+    a=d
+    if s == d:
+        break
+print(c
